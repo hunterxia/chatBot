@@ -8,7 +8,7 @@
         "homepage": "hunter",
         "support": "hunter"
     },
-    "name": "chatBot",
+    "name": "AI query bot",
     "nameSlug": "chatbot",
     "classFile": "ChatBotApp.ts",
     "description": "A flexible AI query bot for any problem domain.",

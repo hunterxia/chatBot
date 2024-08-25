@@ -1,22 +1,6 @@
-# chatBot
-A flexible AI query bot for any problem domain that operates based on a pre-configured RAG pipeline.
+<div align="center"> <img width=30% src="https://github.com/user-attachments/assets/a92f27b9-5101-4725-8311-a0e6ada0edc7" alt="AI Query Bot"> </div> <h1 align="center">AI Query Bot</h1> <h3 align="center">A Configurable Retrieval-Augmented Generation (RAG) Pipeline Executor for Rocket.Chat</h3>
+The AI Query Bot is a powerful Rocket.Chat application designed to answer queries by executing a configurable Retrieval-Augmented Generation (RAG) pipeline. The RAG pipeline is fully customizable via the app's settings, allowing you to control aspects such as the embedding/tokenizer engine, vector database search algorithms, re-ranking strategy, and the choice of open-source Large Language Models (LLMs) like Mistral, Llama, or Phi. Additionally, you can configure any prompts used within the pipeline to tailor the bot's behavior to specific problem domains.
 
-## Getting Started
-Now that you have generated a blank default Rocket.Chat App, what are you supposed to do next?
-Start developing! Open up your favorite editor, our recommended one is Visual Studio code,
-and start working on your App. Once you have something ready to test, you can either
-package it up and manually deploy it to your test instance or you can use the CLI to do so.
-Here are some commands to get started:
-- `rc-apps package`: this command will generate a packaged app file (zip) which can be installed **if** it compiles with TypeScript
-- `rc-apps deploy`: this will do what `package` does but will then ask you for your server url, username, and password to deploy it for you
+This app is versatile enough to handle various use cases, making it a valuable tool for domains ranging from customer support to internal knowledge management. With at least two concrete examples provided within non-trivial problem domains, AI Query Bot is ready to deploy in your Rocket.Chat environment.
 
-## Documentation
-Here are some links to examples and documentation:
-- [Rocket.Chat Apps TypeScript Definitions Documentation](https://rocketchat.github.io/Rocket.Chat.Apps-engine/)
-- [Rocket.Chat Apps TypeScript Definitions Repository](https://github.com/RocketChat/Rocket.Chat.Apps-engine)
-- [Example Rocket.Chat Apps](https://github.com/graywolf336/RocketChatApps)
-- Community Forums
-  - [App Requests](https://forums.rocket.chat/c/rocket-chat-apps/requests)
-  - [App Guides](https://forums.rocket.chat/c/rocket-chat-apps/guides)
-  - [Top View of Both Categories](https://forums.rocket.chat/c/rocket-chat-apps)
-- [#rocketchat-apps on Open.Rocket.Chat](https://open.rocket.chat/channel/rocketchat-apps)
+<div align="center"> <img width=60% src="https://github.com/user-attachments/assets/b42f85ba-c00c-44a8-a2c0-314081c9ad9a" alt="AI Query Bot Illustration"> </div> <h2>Features 🚀</h2> <ul> <li>Execute queries using a customizable Retrieval-Augmented Generation (RAG) pipeline.</li> <li>Configure the pipeline to use different embedding/tokenizer engines, vector database search algorithms, and re-ranking strategies.</li> <li>Select from various open-source LLMs such as Mistral, Llama, and Phi for response generation.</li> <li>Easily modify and engineer prompts used within the pipeline to suit your specific needs.</li> <li>Includes at least two non-trivial domain-specific configurations for practical application.</li> <li>Provides secure and efficient query handling with protection against malicious prompt injections.</li> </ul>
